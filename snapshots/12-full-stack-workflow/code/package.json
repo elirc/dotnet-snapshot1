@@ -1,0 +1,12 @@
+{
+  "name": "atlas-global-workforce",
+  "private": true,
+  "version": "0.0.0-snapshot",
+  "description": "Teaching artifact for a production-style global workforce platform.",
+  "workspaces": ["apps/api", "apps/web", "packages/shared"],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "typecheck": "npm run typecheck --workspaces",
+    "test": "npm run test --workspaces"
+  }
+}

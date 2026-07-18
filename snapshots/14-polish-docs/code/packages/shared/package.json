@@ -1,0 +1,12 @@
+{
+  "name": "@atlas/shared",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./dashboard": "./src/dashboard.ts",
+    "./clientCompany": "./src/clientCompany.ts",
+    "./workAgreement": "./src/workAgreement.ts",
+    "./errors": "./src/errors.ts",
+    "./user": "./src/user.ts"
+  }
+}
